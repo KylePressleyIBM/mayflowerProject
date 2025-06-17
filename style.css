@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.section1 {
+  background-image: url("images/MAS+dep.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative; /* Needed for absolute positioning inside */
+}
+
+/* Position and layout the text block */
+.horizontal-section {
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  align-items: baseline;
+}
+
+/* IBM (thin) */
+.mayflower-title-thin {
+  color: black;
+  font-weight: 300; /* Thin */
+  font-size: 4rem;
+}
+
+/* Mayflower (bold) */
+.mayflower-title-bold {
+  color: black;
+  font-weight: 600; /* Bold */
+  font-size: 4rem;
+}
